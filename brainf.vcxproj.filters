@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{0a56fdcb-4845-4f55-aa12-bf9808da593e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\token_base.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\datamemory.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\instructionbuffer.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\token_incrementPtr.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\token_incrementval.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\token_decrementptr.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\token_decrementval.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\token_output.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\token_input.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\token_loopbeg.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\token_loopend.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\iteratableinstructionbuffer.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".clang-format" />
+  </ItemGroup>
+</Project>
